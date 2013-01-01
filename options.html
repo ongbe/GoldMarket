@@ -1,0 +1,142 @@
+<!-- /**
+ * @author linchao  (<a href="mailto:lin-chao@foxmail.com">lin-chao@foxmail.com</a>)
+ * @date   2012.12.14
+ */ -->
+<!doctype html>
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <head>
+    <title>贵重金属行情提醒设置</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    
+  </head>
+  <body>
+    <h1>
+      <img src="64.png" alt="Toast">
+      贵重金属行情设置
+    </h1>
+    <h2>需要显示行情的类型</h2>
+    <form id="needdisplay">
+    	<label id='rmbau'>
+      		<input  type="checkbox"  checked>
+      		人民币账户黄金<br>
+        </label>
+        <label id='rmbag'> 
+      		<input  type="checkbox"  checked>
+      		人民币账户白银<br>
+        </label>
+        <label id='rmbpt'>
+      		<input  type="checkbox"  checked>
+      		人民币账户铂金<br>
+      	</label>
+      	<label id="rmbpd">
+      		<input  type="checkbox"  checked>
+      		人民币账户钯金<br>
+      	</label>
+      	<label id="usdau">
+      		<input  type="checkbox"  checked>
+      		美元账户黄金<br>
+      	</label>
+      	<label id="usdag">
+      		<input  type="checkbox"  checked>
+      		美元账户白银<br>
+      	</label>
+      	<label id="usdpt" >
+      		<input type="checkbox"  checked>
+      		美元账户铂金<br>
+      	</label>
+      	<label id="usdpd">
+      		<input  type="checkbox"  checked>
+      		美元账户钯金<br>
+      	</label>
+    </form>
+    <h2>推送提醒设置</h2>
+    （注意：以下每项提醒在30分钟内只会出现一次）
+    <form id="options">
+      <input id="isActivated" type="checkbox"  checked>
+      是否推送
+      <div style="padding-left:21px">
+        
+      	
+      		人民币账户黄金:当价格高于:
+      		<input class="inputTxt" type="text" name="rmbauup" >
+      		或当价格低于：
+      		<input type="text" name="rmbaudown" class="inputTxt">
+      		，时推送通知
+      		<input  id='rmbauisActivated' type="checkbox"  checked>
+      		<br>
+        
+        
+      		
+      		人民币账户白银:当价格高于:
+      		<input class="inputTxt" type="text" name="rmbagup" >
+      		或当价格低于：
+      		<input type="text" name="rmbagdown" class="inputTxt">
+      		，时推送通知
+      		<input  id='rmbagisActivated' type="checkbox"  checked>
+      		<br>
+        
+        
+      		
+      		人民币账户铂金:当价格高于:
+      		<input class="inputTxt" type="text" name="rmbptup" >
+      		或当价格低于：
+      		<input type="text" name="rmbptdown" class="inputTxt">
+      		，时推送通知
+      		<input id='rmbptisActivated'  type="checkbox"  checked>
+      		<br>
+      	
+      		
+      		人民币账户钯金:当价格高于:
+      		<input class="inputTxt" type="text" name="rmbpdup" >
+      		或当价格低于：
+      		<input type="text" name="rmbpddown" class="inputTxt">
+      		，时推送通知
+      		<input id="rmbpdisActivated" type="checkbox"  checked>
+      		<br>
+      	
+      	
+      		
+      		美元账户黄金:当价格高于:
+      		<input class="inputTxt" type="text" name="usdauup" >
+      		或当价格低于：
+      		<input type="text" name="usdaudown" class="inputTxt">
+      		，时推送通知
+      		<input id="usdauisActivated" type="checkbox"  checked>
+      		<br>
+      	
+      		
+      		美元账户白银:当价格高于:
+      		<input class="inputTxt" type="text" name="usdagup" >
+      		或当价格低于：
+      		<input type="text" name="usdagdown" class="inputTxt">
+      		，时推送通知
+      		<input id="usdagisActivated"  type="checkbox"  checked>
+      		<br>
+      	      	
+      		
+      		美元账户铂金:当价格高于:
+      		<input class="inputTxt" type="text" name="usdptup" >
+      		或当价格低于
+      		<input type="text" name="usdptdown" class="inputTxt">
+      		，时推送通知
+      		<input id="usdptisActivated" type="checkbox"  checked>
+      		<br>
+      	
+      	
+      		
+      		美元账户钯金:当价格高于:
+      		<input class="inputTxt" type="text" name="usdpdup" >
+      		或当价格低于
+      		<input type="text" name="usdpddown" class="inputTxt">
+      		，时推送通知
+      		<input id="usdpdisActivated" type="checkbox"  checked>
+      		<br>
+      	
+      </div>
+    </form>
+    对于这个插件，如果您有好的想法，欢迎同我联系 ： lin-chao@foxmail.com
+    <script src="options.js"></script>
+  </body>
+</html>

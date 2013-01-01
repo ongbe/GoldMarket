@@ -1,0 +1,23 @@
+{
+    "name": "工行贵重金属报价",
+    "version": "1.0.2",
+    "description" : "工行纸黄金，纸白银，纸铂金，纸钯金价格查看与提醒，数据来源:工行wap银行",
+    "manifest_version": 2,
+    "permissions": [
+        "http://wap.icbc.com.cn/*",
+        "notifications",
+        "tabs"
+    ],
+     "background": { "page": "background.html" },
+    "options_page": "options.html",
+    "icons": 
+    { 
+      "48": "48.png"
+    },  
+    "browser_action": {
+      "default_title": "右键-选项中可以开启报价提醒",
+      "default_icon": "48.png",
+      "default_popup": "popup.html"
+    }
+    
+}
